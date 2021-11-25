@@ -1,3 +1,3 @@
-# First_project_text_analyser
+# First project text analyser
 
 Basic text analyser. the program analyzes the given text
