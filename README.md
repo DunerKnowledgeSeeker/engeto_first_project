@@ -1,3 +1,3 @@
-# First project text analyser
+# First project for certificatin - text analyser
 
-Basic text analyser. the program analyzes the given text
+Basic text analyser. The program analyzes the given text. 
