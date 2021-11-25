@@ -1,5 +1,3 @@
-# engeto_first_project
+# First_project_text_analyser
 
-Repo for first project on Engeto. 
-
-Text analyser
+Basic text analyser. the program analyzes the given text
