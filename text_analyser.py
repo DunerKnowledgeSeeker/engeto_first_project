@@ -67,13 +67,13 @@ while True:
             words.append(edit_word)
             if word.istitle():
                 count_title += 1
-            if word.isupper() and word.isalpha():
+            elif word.isupper() and word.isalpha():
                 count_upper += 1
-            if word.islower():
+            elif word.islower():
                 count_lower += 1
-            if word.isnumeric():
+            elif word.isnumeric():
                 count_numeric += 1
-            if word.isdigit():
+            elif word.isdigit():
                 sum_str = sum_str + int(word)
         print(f'There are {len(words)} words in the selected text.')
         print(f'There are {count_title} titlecase words.')
