@@ -94,7 +94,7 @@ while True:
         for key, value in sorted(words_occurrence.items()):
             occurrences = value * '*'
             print(f'{key:>3}| {occurrences:<18} | {value}')
-       while True:
+        while True:
             next_text = input("Do you want to analyse next text? Type 'y' for yes or 'n' for no: ")
             if next_text == 'n':
                 print('Thank you for using the app.')
@@ -103,7 +103,7 @@ while True:
             elif next_text == 'y':
                 break
             else:
-                print('Wrong input. Try it again...'
+                print('Wrong input. Try it again...')
     except ValueError:
         print(SEPARATOR)
         print('Wrong input. You can choose number only between 1 - 3 and value must be a number!')
